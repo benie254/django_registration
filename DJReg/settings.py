@@ -49,11 +49,11 @@ import cloudinary.api
 # db_from_env = dj_database_url.config(conn_max_age=500)
 # DATABASES['default'].update(db_from_env)
 
-# comment out line 52 during production && uncomment it during development--it is important in DEV mod
+# comment out line 54 during production && uncomment it during development--it is important in DEV mod
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-# uncomment line 54 during production && comment it out during development--it is important in PROD mode
+# uncomment line 57 during production && comment it out during development--it is important in PROD mode
 # BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Quick-start development settings - unsuitable for production
@@ -71,7 +71,7 @@ ALLOWED_HOSTS = []
 # Application definition
 
 INSTALLED_APPS = [
-    'pool',
+    'yourAppNameHere',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
